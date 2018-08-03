@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Bad+Script|Caveat|Gaegu|Give+You+Glory');
+
+	body {
+		background-image: url("bg.png");
+		margin: 0 auto;
+	}
+
+	.container {
+		width: 75%;
+		height: 100%
+		margin: 0 auto;
+		margin-left: 12.5%;
+		margin-right: 12.5%;
+		display: block;
+		padding: 10px;
+		position: relative;
+		min-height: 100%;
+	}
+
+	h1 {
+		color: #FFFFFF;
+		background-color: #af807f;
+		font-family: 'Give You Glory', cursive;
+		width: 100%;
+		font-size: 300%;
+		margin: 0 0;
+		text-align: center;
+	}
+
+	h2.inicio {
+		color: #af807f;
+		font-family: 'Give You Glory', cursive;
+		width: 100%;
+		font-size: 200%;
+		margin: 0 0;
+		text-align: center;	
+		margin-top: 4%;
+		position: relative;	
+	}
+
+	h2 {
+		color: #af807f;
+		font-family: 'Give You Glory', cursive;
+		width: 100%;
+		font-size: 200%;
+		margin: 0 0;
+		text-align: center;	
+		position: relative;	
+	}
+
+
+	img.qef {
+		width: 50%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		display: flex;
+        justify-content: center;
+        align-items: center	}
+
+    img.casal {
+    	width: 100%;
+    }
+
+    img, iframe {
+    	max-width: 100%;
+    }
+
+    p {
+    	width: 100%;
+    	text-indent: 1%;
+    	font-family: 'Caveat', cursive;
+    	font-size: 200%;
+    	color: #af807f;
+    }
+
+    .border {
+    	border: 2px dotted #af807f;
+    	border-radius: 1%;
+    	padding: 5%; 
+    }
+
+	nav {
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		display: flex;
+        justify-content: center;
+        align-items: center;
+	}
+
+	nav#menu a {
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+
+	nav#menu li {
+		list-style-type: none;
+		background-color: #af807f;
+		width: 200px;
+		padding: 2px;
+		margin: 2px;
+		text-align: center;
+		display: block;
+	}
+
+	.divisoria {
+		width: 100%;
+		height: 100px;
+		background-color: #af807f;
+	}

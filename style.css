@@ -1,0 +1,69 @@
+@charset UTF-8;
+
+	body{
+		background-image: url("bg.png");
+	}
+
+	#pagina{
+		width: 60%;
+		position: absolute;
+		margin-left: 20%;
+		display: flex;
+		flex-direction: column;
+		display: flex;
+        justify-content: center;
+        align-items: center
+	}
+
+	#logo {
+		width: 200px;
+		height: 200px;
+	}
+
+	#casal {
+		width: 500px;
+	}
+
+	nav#menu a {
+		text-decoration: none;
+		color: brown;
+	}
+
+	nav#menu li {
+		list-style-type: none;
+		background-color: pink;
+		width: 200px;
+		padding: 2px;
+		margin: 2px;
+		text-align: center;
+		display: block;
+	}
+
+	h1 {
+		font-size: 50px;
+		background-color: pink;
+		padding: 10px;
+		color: brown;
+	}
+
+	h2 {
+		font-size: 25px;
+		width: 50%;
+		background-color: pink;
+		opacity: 0.5%;
+		padding: 10px;
+		color: brown;
+	}
+
+	p{
+		color: brown;
+	}
+
+	ul#gifts {
+		color: brown;
+	}
+
+	#historia, #colors, #date, #gifts, #mape {
+		width: 100%;
+	} 
+
